@@ -20,6 +20,7 @@ public class Cliente {
         this.cpf = cpf;
         this.telefone = telefone;
         this.email = email;
+        this.dataCadastro = LocalDateTime.now();
     }
 
     public ObjectId getId() { return id; }
